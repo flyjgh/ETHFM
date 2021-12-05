@@ -6,7 +6,7 @@ import "ds-test/test.sol";
 import "./Ethfm.sol";
 
 contract EthfmTest is DSTest {
-    Ethfm ethfm;
+    ETHFM ethfm;
 
     function setUp() public {
         ethfm = new Ethfm();
